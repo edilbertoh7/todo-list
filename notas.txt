@@ -1,0 +1,12 @@
+instalacion de tailwind
+npm i -D tailwindcss postcss autoprefixer
+
+creacion de archivos de configuracion
+npx tailwindcss init -p
+
+recordar crear la referencia a los archivos que renderizaran las clases de tailwind en el archivo tailwind.config.cjs
+
+extensiones necesarias
+css peek
+Tailwind CSS IntelliSense
+ inicia el video 5
