@@ -1,19 +1,19 @@
-const Tareas = () =>{
+const Tareas = ({titulo,fecha,descripcion}) =>{
     return(
         <div className="bg-white shadow-md px-5 py-10 rounded-lg mt-5" >
         <p className="font-bold mb-3 text-gray-700 uppercase" >Titulo:{" "}
-            <span className="font-normal normal-case" >Crear API</span>
+            <span className="font-normal normal-case" > {titulo} </span>
         </p>
 
         <p className="font-bold mb-3 text-gray-700 uppercase" >Fecha:{" "}
-            <span className="font-normal normal-case" >26 julio 2022</span>
+            <span className="font-normal normal-case" >{fecha} </span>
         </p>
 
         <p className="font-bold mb-3 text-gray-700 uppercase" >Descripción:{" "}
-            <span className="font-normal normal-case" > Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dicta voluptatem sunt similique doloremque deserunt, ducimus culpa nobis quia voluptas sapiente porro illo architecto nam magnam enim blanditiis, cum tenetur. </span>
+            <span className="font-normal normal-case" > {descripcion} </span>
         </p>
 
     </div>
-    )
+    )  
 }
 export default Tareas
