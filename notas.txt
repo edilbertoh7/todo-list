@@ -10,3 +10,4 @@ extensiones necesarias
 css peek
 Tailwind CSS IntelliSense
  inicia el video 20
+ 
