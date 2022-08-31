@@ -9,8 +9,8 @@ function App() {
     <div className="container mx-auto mt-20">
      <Header />
      <div className="mt-12 md:flex" >
-     <Form />
-     <ListaTareas />
+     <Form tareas = {tareas} setTareas={setTareas} />
+     <ListaTareas tareas = {tareas} />
      </div>
     </div>
   )

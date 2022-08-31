@@ -9,4 +9,4 @@ recordar crear la referencia a los archivos que renderizaran las clases de tailw
 extensiones necesarias
 css peek
 Tailwind CSS IntelliSense
- inicia el video 10
+ inicia el video 20
