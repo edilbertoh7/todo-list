@@ -1,11 +1,11 @@
 import Tareas from "./Tareas"
 //className={`md:w-1/2 lg:w-2/5 mx-5  ${tareas.length >=3 && 'h-screen overflow-scroll'}` 
 
-const  ListaTareas = ({ tareas, setTarea }) => {
+const ListaTareas = ({ tareas, setTarea, eliminarTarea }) => {
 
 
     return (
-        <div className={`md:w-1/2 lg:w-2/5 mx-5  ${tareas.length >=3 && 'h-screen overflow-scroll'}`} >
+        <div className={`md:w-1/2 lg:w-2/5 mx-5  ${tareas.length >= 3 && 'h-screen overflow-scroll'}`} >
             {/* si hay tareas se muestra lista de tareas*/}
             {tareas && tareas.length ? (
                 <>
@@ -15,7 +15,7 @@ const  ListaTareas = ({ tareas, setTarea }) => {
                     {tareas.map((tarea, index) => {
                         return (
 
-                            <Tareas key={tarea.id} tarea={tarea} setTarea={setTarea}  />
+                            <Tareas key={tarea.id} tarea={tarea} setTarea={setTarea} eliminarTarea={eliminarTarea} />
 
                         )
                     })}
