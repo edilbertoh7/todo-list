@@ -9,10 +9,10 @@ const ListaTareas = ({ tareas, setTarea, eliminarTarea }) => {
             {/* si hay tareas se muestra lista de tareas*/}
             {tareas && tareas.length ? (
                 <>
-                    <h2 className="font-black text-3xl text-center mb-10" >
+                    <h2 className="font-black text-3xl text-center mb-6" >
                         Listado de tareas por hacer
                     </h2>
-                    {tareas.map((tarea, index) => {
+                    {tareas.map((tarea) => {
                         return (
 
                             <Tareas key={tarea.id} tarea={tarea} setTarea={setTarea} eliminarTarea={eliminarTarea} />

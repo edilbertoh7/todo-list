@@ -30,9 +30,9 @@ function App() {
     }
   }
   return (
-    <div className="container mx-auto mt-20">
+    <div className="container mx-auto mt-6">
       <Header />
-      <div className="mt-12 md:flex" >
+      <div className="mt-8 md:flex" >
         {/*la tarea recibida desde el componente tareas se envia hacia el formulario */}
         <Form
           tarea={tarea}
