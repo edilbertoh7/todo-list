@@ -13,7 +13,7 @@ const Tareas = ({ tarea, setTarea, eliminarTarea }) => {
 
             <p className="font-bold mb-3 text-gray-700 uppercase" >Descripción:{" "}
                 <span className="font-normal normal-case" > {descripcion} </span>
-                <span className="font-normal normal-case" > {tarea.id} </span>
+               {/* <span className="font-normal normal-case" > {tarea.id} </span>*/}
             </p>
             <div className="flex justify-between " >
 

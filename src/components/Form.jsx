@@ -66,11 +66,11 @@ const Form = ({ tareas, setTareas, tarea, setTarea }) => {
     }
     return (
         <div className="md:w-1/2 lg:w-2/5 mx-5">
-            <h2 className="font-black text-3xl text-center mb-10" >Creación de tareas</h2>
+            <h2 className="font-black text-3xl text-center mb-6" >Creación de tareas</h2>
             <form onSubmit={HandleSubmit} className="bg-white shadow-md rounded-lg py-10 px-5 mb-10">
 
 
-                <div className="mb-5" >
+                <div className="mb-3" >
                     <label htmlFor="titulo" className="block text-gray-700 uppercase font-bold" >Titulo</label>
                     <input id="titulo"
                         className="border-4 w-full p-2 rounded-md placeholder-slate-500"
